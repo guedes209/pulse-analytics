@@ -4,15 +4,15 @@
 - [x] **Task 1.1:** Create `spec.md` with EARS requirements and acceptance criteria.
 - [x] **Task 1.2:** Create architecture documentation (`architecture.md`).
 - [x] **Task 1.3:** Define high-level `docker-compose.yml` for data infrastructure.
-- [ ] **Gate:** User approval of the `.specs` planning artifacts.
+- [x] **Gate:** User approval of the `.specs` planning artifacts.
 
 ## Phase 2: Data Infrastructure Setup
-- [ ] **Task 2.1:** Create `docker-compose.yml` in the project root to provision Apache Kafka and ClickHouse.
-- [ ] **Task 2.2:** Configure ClickHouse SQL initialization scripts (`init.sql`):
+- [x] **Task 2.1:** Create `docker-compose.yml` in the project root to provision Apache Kafka and ClickHouse.
+- [x] **Task 2.2:** Configure ClickHouse SQL initialization scripts (`init.sql`):
   - Create Kafka Engine table.
   - Create target MergeTree table (`events`).
   - Create Materialized View to link Kafka table to MergeTree table.
-- [ ] **Gate:** Validate infrastructure by manually producing a message to Kafka and querying ClickHouse.
+- [x] **Gate:** Validate infrastructure by manually producing a message to Kafka and querying ClickHouse.
 
 ## Phase 3: Ingestion API (Node.js/TypeScript)
 - [ ] **Task 3.1:** Initialize Node.js/TypeScript project for the Ingestion API.
