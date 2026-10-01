@@ -15,11 +15,11 @@
 - [x] **Gate:** Validate infrastructure by manually producing a message to Kafka and querying ClickHouse.
 
 ## Phase 3: Ingestion API (Node.js/TypeScript)
-- [ ] **Task 3.1:** Initialize Node.js/TypeScript project for the Ingestion API.
-- [ ] **Task 3.2:** Implement basic HTTP server (e.g., Fastify) with CORS enabled.
-- [ ] **Task 3.3:** Implement schema validation for incoming events (`pageview`, `click`).
-- [ ] **Task 3.4:** Integrate Kafka Producer to publish validated events to the `events_topic`.
-- [ ] **Gate:** Write and run tests for event ingestion.
+- [x] **Task 3.1:** Initialize Node.js/TypeScript project for the Ingestion API.
+- [x] **Task 3.2:** Implement basic HTTP server (e.g., Fastify) with CORS enabled.
+- [x] **Task 3.3:** Implement schema validation for incoming events (`pageview`, `click`).
+- [x] **Task 3.4:** Integrate Kafka Producer to publish validated events to the `events_topic`.
+- [x] **Gate:** Write and run tests for event ingestion.
 
 ## Phase 4: Tracker SDK (Vanilla JS)
 - [ ] **Task 4.1:** Create `tracker.js` script.

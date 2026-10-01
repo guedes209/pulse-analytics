@@ -1,0 +1,25 @@
+### Test Event Ingestion (Pageview)
+POST http://localhost:3000/collect
+Content-Type: application/json
+
+{
+  "event_type": "pageview",
+  "url": "https://meu-portfolio.com/about",
+  "timestamp": "2026-09-30T21:30:00Z",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "element_metadata": ""
+}
+
+###
+
+### Test Event Ingestion (Click)
+POST http://localhost:3000/collect
+Content-Type: application/json
+
+{
+  "event_type": "click",
+  "url": "https://meu-portfolio.com",
+  "timestamp": "2026-09-30T21:35:00Z",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+  "element_metadata": "{\"button_id\":\"contact-me\"}"
+}
