@@ -22,11 +22,11 @@
 - [x] **Gate:** Write and run tests for event ingestion.
 
 ## Phase 4: Tracker SDK (Vanilla JS)
-- [ ] **Task 4.1:** Create `tracker.js` script.
-- [ ] **Task 4.2:** Implement `pageview` auto-tracking on load.
-- [ ] **Task 4.3:** Implement `click` tracking for configured elements.
-- [ ] **Task 4.4:** Implement batching/sending mechanism (using `fetch` or `navigator.sendBeacon`).
-- [ ] **Gate:** Test SDK locally using a simple HTML page.
+- [x] **Task 4.1:** Create `tracker.js` script.
+- [x] **Task 4.2:** Implement `pageview` auto-tracking on load.
+- [x] **Task 4.3:** Implement `click` tracking for configured elements.
+- [x] **Task 4.4:** Implement batching/sending mechanism (using `fetch` or `navigator.sendBeacon`).
+- [x] **Gate:** Test SDK locally using a simple HTML page.
 
 ## Phase 5: Analytics API & Dashboard
 - [ ] **Task 5.1:** Initialize React + Vite project for the Dashboard.

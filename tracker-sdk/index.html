@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseAnalytics Tracker Test</title>
+    <!-- Load Tracker SDK -->
+    <script src="./tracker.js" defer></script>
+    <style>
+        body { font-family: sans-serif; padding: 2rem; max-width: 600px; margin: 0 auto; }
+        button { padding: 10px 20px; font-size: 16px; margin: 10px 0; cursor: pointer; }
+        .box { padding: 20px; border: 1px solid #ccc; margin-top: 20px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>Tracker SDK Test Page</h1>
+    <p>A <strong>pageview</strong> event was automatically tracked when you opened this page. Check your browser console and the Ingestion API logs!</p>
+    
+    <div class="box">
+        <h3>Click Tracking Demo</h3>
+        <p>The buttons below have the <code>data-track-click</code> attribute.</p>
+        
+        <button data-track-click='{"button_name": "checkout_btn", "value": 100}'>
+            Simulate Checkout
+        </button>
+        <br>
+        <button data-track-click='{"button_name": "subscribe_newsletter"}'>
+            Subscribe Newsletter
+        </button>
+    </div>
+
+    <div class="box">
+        <p>This button <strong>does not</strong> have the tracking attribute, so it won't be tracked:</p>
+        <button>Untracked Button</button>
+    </div>
+</body>
+</html>

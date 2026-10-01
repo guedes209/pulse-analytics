@@ -6,7 +6,8 @@ import { producer, connectProducer, disconnectProducer } from './kafka.js';
 const fastify = Fastify({ logger: true });
 
 fastify.register(cors, {
-  origin: '*', // Allow all origins for the MVP
+  origin: true, // Reflects the request origin (supports 'null' for local files)
+  credentials: true, // Required for navigator.sendBeacon
 });
 
 fastify.post('/collect', async (request, reply) => {
