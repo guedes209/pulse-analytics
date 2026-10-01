@@ -29,9 +29,9 @@
 - [x] **Gate:** Test SDK locally using a simple HTML page.
 
 ## Phase 5: Analytics API & Dashboard
-- [ ] **Task 5.1:** Initialize React + Vite project for the Dashboard.
-- [ ] **Task 5.2:** Initialize Node.js/TypeScript project for the Analytics API.
-- [ ] **Task 5.3:** Implement ClickHouse client in the Analytics API to query aggregated data.
-- [ ] **Task 5.4:** Create endpoints for Dashboard metrics.
-- [ ] **Task 5.5:** Implement real-time charts in the React Dashboard polling the Analytics API.
-- [ ] **Gate:** End-to-end test: trigger an event via SDK and visualize it on the Dashboard.
+- [x] **Task 5.1:** Initialize React + Vite project for the Dashboard.
+- [x] **Task 5.2:** Initialize Node.js/TypeScript project for the Analytics API.
+- [x] **Task 5.3:** Implement ClickHouse client in the Analytics API to query aggregated data.
+- [x] **Task 5.4:** Create endpoints for Dashboard metrics.
+- [x] **Task 5.5:** Implement real-time charts in the React Dashboard polling the Analytics API.
+- [x] **Gate:** End-to-end test: trigger an event via SDK and visualize it on the Dashboard.
